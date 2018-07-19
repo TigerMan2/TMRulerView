@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11B9527120F8904F00B07F72 /* YJRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B9527020F8904F00B07F72 /* YJRulerView.m */; };
+		11DE80E920FC83B2001CE0E9 /* YJRulerViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE80E820FC83B2001CE0E9 /* YJRulerViewConfig.m */; };
 		11F5CA5120F840DC0043AEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA5020F840DC0043AEF9 /* AppDelegate.m */; };
 		11F5CA5420F840DC0043AEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA5320F840DC0043AEF9 /* ViewController.m */; };
 		11F5CA5720F840DC0043AEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F5CA5520F840DC0043AEF9 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		11F5CA5F20F840DF0043AEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA5E20F840DF0043AEF9 /* main.m */; };
 		11F5CA6920F840DF0043AEF9 /* YJRuerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA6820F840DF0043AEF9 /* YJRuerViewTests.m */; };
 		11F5CA7420F840DF0043AEF9 /* YJRuerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA7320F840DF0043AEF9 /* YJRuerViewUITests.m */; };
+		11F5CA8420F84EFC0043AEF9 /* YJScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA8320F84EFC0043AEF9 /* YJScrollRulerView.m */; };
+		11F5CA8720F876820043AEF9 /* YJTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA8620F876820043AEF9 /* YJTriangleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11B9526F20F8904F00B07F72 /* YJRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRulerView.h; sourceTree = "<group>"; };
+		11B9527020F8904F00B07F72 /* YJRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRulerView.m; sourceTree = "<group>"; };
+		11DE80E720FC83B2001CE0E9 /* YJRulerViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRulerViewConfig.h; sourceTree = "<group>"; };
+		11DE80E820FC83B2001CE0E9 /* YJRulerViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRulerViewConfig.m; sourceTree = "<group>"; };
 		11F5CA4C20F840DC0043AEF9 /* YJRuerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJRuerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F5CA4F20F840DC0043AEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11F5CA5020F840DC0043AEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		11F5CA6F20F840DF0043AEF9 /* YJRuerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJRuerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F5CA7320F840DF0043AEF9 /* YJRuerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRuerViewUITests.m; sourceTree = "<group>"; };
 		11F5CA7520F840DF0043AEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F5CA8220F84EFC0043AEF9 /* YJScrollRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJScrollRulerView.h; sourceTree = "<group>"; };
+		11F5CA8320F84EFC0043AEF9 /* YJScrollRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJScrollRulerView.m; sourceTree = "<group>"; };
+		11F5CA8520F876820043AEF9 /* YJTriangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTriangleView.h; sourceTree = "<group>"; };
+		11F5CA8620F876820043AEF9 /* YJTriangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTriangleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		11F5CA4E20F840DC0043AEF9 /* YJRuerView */ = {
 			isa = PBXGroup;
 			children = (
+				11F5CA8120F840F50043AEF9 /* YJRulerView */,
 				11F5CA4F20F840DC0043AEF9 /* AppDelegate.h */,
 				11F5CA5020F840DC0043AEF9 /* AppDelegate.m */,
 				11F5CA5220F840DC0043AEF9 /* ViewController.h */,
@@ -130,6 +143,21 @@
 				11F5CA7520F840DF0043AEF9 /* Info.plist */,
 			);
 			path = YJRuerViewUITests;
+			sourceTree = "<group>";
+		};
+		11F5CA8120F840F50043AEF9 /* YJRulerView */ = {
+			isa = PBXGroup;
+			children = (
+				11DE80E720FC83B2001CE0E9 /* YJRulerViewConfig.h */,
+				11DE80E820FC83B2001CE0E9 /* YJRulerViewConfig.m */,
+				11F5CA8220F84EFC0043AEF9 /* YJScrollRulerView.h */,
+				11F5CA8320F84EFC0043AEF9 /* YJScrollRulerView.m */,
+				11F5CA8520F876820043AEF9 /* YJTriangleView.h */,
+				11F5CA8620F876820043AEF9 /* YJTriangleView.m */,
+				11B9526F20F8904F00B07F72 /* YJRulerView.h */,
+				11B9527020F8904F00B07F72 /* YJRulerView.m */,
+			);
+			path = YJRulerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F5CA8420F84EFC0043AEF9 /* YJScrollRulerView.m in Sources */,
 				11F5CA5420F840DC0043AEF9 /* ViewController.m in Sources */,
+				11DE80E920FC83B2001CE0E9 /* YJRulerViewConfig.m in Sources */,
+				11B9527120F8904F00B07F72 /* YJRulerView.m in Sources */,
 				11F5CA5F20F840DF0043AEF9 /* main.m in Sources */,
+				11F5CA8720F876820043AEF9 /* YJTriangleView.m in Sources */,
 				11F5CA5120F840DC0043AEF9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

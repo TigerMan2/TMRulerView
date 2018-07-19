@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "YJScrollRulerView.h"
+#import "YJRulerViewConfig.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) YJScrollRulerView *rulerView;
 
 @end
 
@@ -16,7 +20,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.view addSubview:self.rulerView];
+    
+}
+
+- (YJScrollRulerView *)rulerView {
+    if (!_rulerView) {
+        _rulerView = [[YJScrollRulerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width - 0 * 2, RVCShareIns.rulerView_H) minValue:0 maxValue:10 step:0.5 unit:@"" num:2];
+        _rulerView.center = self.view.center;
+        [_rulerView setRealValue:5 animated:YES];
+    }
+    return _rulerView;
 }
 
 
