@@ -1,17 +1,17 @@
 //
-//  YJRulerViewConfig.m
-//  YJRuerView
+//  TMRulerViewConfig.m
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/16.
 //  Copyright © 2018年 edward lannister. All rights reserved.
 //
 
-#import "YJRulerViewConfig.h"
+#import "TMRulerViewConfig.h"
 
-@implementation YJRulerViewConfig
+@implementation TMRulerViewConfig
 
 + (instancetype)manager {
-    static YJRulerViewConfig *_instance = nil;
+    static TMRulerViewConfig *_instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _instance = [[self alloc] init];

@@ -1,6 +1,6 @@
 //
-//  AppDelegate.h
-//  YJRuerView
+//  ViewController.h
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ViewController : UIViewController
 
 
 @end

@@ -1,15 +1,15 @@
 //
-//  YJRulerView.m
-//  YJRuerView
+//  TMRulerView.m
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
 //
 
-#import "YJRulerView.h"
-#import "YJRulerViewConfig.h"
+#import "TMRulerView.h"
+#import "TMRulerViewConfig.h"
 
-@implementation YJRulerView
+@implementation TMRulerView
 
 //绘制刻度
 - (void)drawRect:(CGRect)rect {

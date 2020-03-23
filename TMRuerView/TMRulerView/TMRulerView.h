@@ -1,15 +1,15 @@
 //
-//  YJRulerView.h
-//  YJRuerView
+//  TMRulerView.h
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "YJRulerViewConfig.h"
+#import "TMRulerViewConfig.h"
 
-@interface YJRulerView : UIView
+@interface TMRulerView : UIView
 
 //最大值占位
 @property (nonatomic, assign) BOOL isPlaceholderCell_Max;

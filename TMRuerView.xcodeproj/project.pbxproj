@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11B9527120F8904F00B07F72 /* YJRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B9527020F8904F00B07F72 /* YJRulerView.m */; };
-		11DE80E920FC83B2001CE0E9 /* YJRulerViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE80E820FC83B2001CE0E9 /* YJRulerViewConfig.m */; };
+		11B9527120F8904F00B07F72 /* TMRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B9527020F8904F00B07F72 /* TMRulerView.m */; };
+		11DE80E920FC83B2001CE0E9 /* TMRulerViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE80E820FC83B2001CE0E9 /* TMRulerViewConfig.m */; };
 		11F5CA5120F840DC0043AEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA5020F840DC0043AEF9 /* AppDelegate.m */; };
 		11F5CA5420F840DC0043AEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA5320F840DC0043AEF9 /* ViewController.m */; };
 		11F5CA5720F840DC0043AEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F5CA5520F840DC0043AEF9 /* Main.storyboard */; };
 		11F5CA5920F840DF0043AEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F5CA5820F840DF0043AEF9 /* Assets.xcassets */; };
 		11F5CA5C20F840DF0043AEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F5CA5A20F840DF0043AEF9 /* LaunchScreen.storyboard */; };
 		11F5CA5F20F840DF0043AEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA5E20F840DF0043AEF9 /* main.m */; };
-		11F5CA6920F840DF0043AEF9 /* YJRuerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA6820F840DF0043AEF9 /* YJRuerViewTests.m */; };
-		11F5CA7420F840DF0043AEF9 /* YJRuerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA7320F840DF0043AEF9 /* YJRuerViewUITests.m */; };
-		11F5CA8420F84EFC0043AEF9 /* YJScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA8320F84EFC0043AEF9 /* YJScrollRulerView.m */; };
-		11F5CA8720F876820043AEF9 /* YJTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA8620F876820043AEF9 /* YJTriangleView.m */; };
+		11F5CA6920F840DF0043AEF9 /* TMRuerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA6820F840DF0043AEF9 /* TMRuerViewTests.m */; };
+		11F5CA7420F840DF0043AEF9 /* TMRuerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA7320F840DF0043AEF9 /* TMRuerViewUITests.m */; };
+		11F5CA8420F84EFC0043AEF9 /* TMScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA8320F84EFC0043AEF9 /* TMScrollRulerView.m */; };
+		11F5CA8720F876820043AEF9 /* TMTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5CA8620F876820043AEF9 /* TMTriangleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11B9526F20F8904F00B07F72 /* YJRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRulerView.h; sourceTree = "<group>"; };
-		11B9527020F8904F00B07F72 /* YJRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRulerView.m; sourceTree = "<group>"; };
-		11DE80E720FC83B2001CE0E9 /* YJRulerViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRulerViewConfig.h; sourceTree = "<group>"; };
-		11DE80E820FC83B2001CE0E9 /* YJRulerViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRulerViewConfig.m; sourceTree = "<group>"; };
-		11F5CA4C20F840DC0043AEF9 /* YJRuerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJRuerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B9526F20F8904F00B07F72 /* TMRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRulerView.h; sourceTree = "<group>"; };
+		11B9527020F8904F00B07F72 /* TMRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRulerView.m; sourceTree = "<group>"; };
+		11DE80E720FC83B2001CE0E9 /* TMRulerViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRulerViewConfig.h; sourceTree = "<group>"; };
+		11DE80E820FC83B2001CE0E9 /* TMRulerViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRulerViewConfig.m; sourceTree = "<group>"; };
+		11F5CA4C20F840DC0043AEF9 /* TMRuerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMRuerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F5CA4F20F840DC0043AEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11F5CA5020F840DC0043AEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		11F5CA5220F840DC0043AEF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -53,16 +53,16 @@
 		11F5CA5B20F840DF0043AEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F5CA5D20F840DF0043AEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11F5CA5E20F840DF0043AEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11F5CA6420F840DF0043AEF9 /* YJRuerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJRuerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F5CA6820F840DF0043AEF9 /* YJRuerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRuerViewTests.m; sourceTree = "<group>"; };
+		11F5CA6420F840DF0043AEF9 /* TMRuerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMRuerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F5CA6820F840DF0043AEF9 /* TMRuerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRuerViewTests.m; sourceTree = "<group>"; };
 		11F5CA6A20F840DF0043AEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11F5CA6F20F840DF0043AEF9 /* YJRuerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJRuerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F5CA7320F840DF0043AEF9 /* YJRuerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRuerViewUITests.m; sourceTree = "<group>"; };
+		11F5CA6F20F840DF0043AEF9 /* TMRuerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMRuerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F5CA7320F840DF0043AEF9 /* TMRuerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRuerViewUITests.m; sourceTree = "<group>"; };
 		11F5CA7520F840DF0043AEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11F5CA8220F84EFC0043AEF9 /* YJScrollRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJScrollRulerView.h; sourceTree = "<group>"; };
-		11F5CA8320F84EFC0043AEF9 /* YJScrollRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJScrollRulerView.m; sourceTree = "<group>"; };
-		11F5CA8520F876820043AEF9 /* YJTriangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTriangleView.h; sourceTree = "<group>"; };
-		11F5CA8620F876820043AEF9 /* YJTriangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTriangleView.m; sourceTree = "<group>"; };
+		11F5CA8220F84EFC0043AEF9 /* TMScrollRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMScrollRulerView.h; sourceTree = "<group>"; };
+		11F5CA8320F84EFC0043AEF9 /* TMScrollRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMScrollRulerView.m; sourceTree = "<group>"; };
+		11F5CA8520F876820043AEF9 /* TMTriangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTriangleView.h; sourceTree = "<group>"; };
+		11F5CA8620F876820043AEF9 /* TMTriangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTriangleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +93,9 @@
 		11F5CA4320F840DC0043AEF9 = {
 			isa = PBXGroup;
 			children = (
-				11F5CA4E20F840DC0043AEF9 /* YJRuerView */,
-				11F5CA6720F840DF0043AEF9 /* YJRuerViewTests */,
-				11F5CA7220F840DF0043AEF9 /* YJRuerViewUITests */,
+				11F5CA4E20F840DC0043AEF9 /* TMRuerView */,
+				11F5CA6720F840DF0043AEF9 /* TMRuerViewTests */,
+				11F5CA7220F840DF0043AEF9 /* TMRuerViewUITests */,
 				11F5CA4D20F840DC0043AEF9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,17 +103,17 @@
 		11F5CA4D20F840DC0043AEF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11F5CA4C20F840DC0043AEF9 /* YJRuerView.app */,
-				11F5CA6420F840DF0043AEF9 /* YJRuerViewTests.xctest */,
-				11F5CA6F20F840DF0043AEF9 /* YJRuerViewUITests.xctest */,
+				11F5CA4C20F840DC0043AEF9 /* TMRuerView.app */,
+				11F5CA6420F840DF0043AEF9 /* TMRuerViewTests.xctest */,
+				11F5CA6F20F840DF0043AEF9 /* TMRuerViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11F5CA4E20F840DC0043AEF9 /* YJRuerView */ = {
+		11F5CA4E20F840DC0043AEF9 /* TMRuerView */ = {
 			isa = PBXGroup;
 			children = (
-				11F5CA8120F840F50043AEF9 /* YJRulerView */,
+				11F5CA8120F840F50043AEF9 /* TMRulerView */,
 				11F5CA4F20F840DC0043AEF9 /* AppDelegate.h */,
 				11F5CA5020F840DC0043AEF9 /* AppDelegate.m */,
 				11F5CA5220F840DC0043AEF9 /* ViewController.h */,
@@ -124,48 +124,48 @@
 				11F5CA5D20F840DF0043AEF9 /* Info.plist */,
 				11F5CA5E20F840DF0043AEF9 /* main.m */,
 			);
-			path = YJRuerView;
+			path = TMRuerView;
 			sourceTree = "<group>";
 		};
-		11F5CA6720F840DF0043AEF9 /* YJRuerViewTests */ = {
+		11F5CA6720F840DF0043AEF9 /* TMRuerViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				11F5CA6820F840DF0043AEF9 /* YJRuerViewTests.m */,
+				11F5CA6820F840DF0043AEF9 /* TMRuerViewTests.m */,
 				11F5CA6A20F840DF0043AEF9 /* Info.plist */,
 			);
-			path = YJRuerViewTests;
+			path = TMRuerViewTests;
 			sourceTree = "<group>";
 		};
-		11F5CA7220F840DF0043AEF9 /* YJRuerViewUITests */ = {
+		11F5CA7220F840DF0043AEF9 /* TMRuerViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				11F5CA7320F840DF0043AEF9 /* YJRuerViewUITests.m */,
+				11F5CA7320F840DF0043AEF9 /* TMRuerViewUITests.m */,
 				11F5CA7520F840DF0043AEF9 /* Info.plist */,
 			);
-			path = YJRuerViewUITests;
+			path = TMRuerViewUITests;
 			sourceTree = "<group>";
 		};
-		11F5CA8120F840F50043AEF9 /* YJRulerView */ = {
+		11F5CA8120F840F50043AEF9 /* TMRulerView */ = {
 			isa = PBXGroup;
 			children = (
-				11DE80E720FC83B2001CE0E9 /* YJRulerViewConfig.h */,
-				11DE80E820FC83B2001CE0E9 /* YJRulerViewConfig.m */,
-				11F5CA8220F84EFC0043AEF9 /* YJScrollRulerView.h */,
-				11F5CA8320F84EFC0043AEF9 /* YJScrollRulerView.m */,
-				11F5CA8520F876820043AEF9 /* YJTriangleView.h */,
-				11F5CA8620F876820043AEF9 /* YJTriangleView.m */,
-				11B9526F20F8904F00B07F72 /* YJRulerView.h */,
-				11B9527020F8904F00B07F72 /* YJRulerView.m */,
+				11DE80E720FC83B2001CE0E9 /* TMRulerViewConfig.h */,
+				11DE80E820FC83B2001CE0E9 /* TMRulerViewConfig.m */,
+				11F5CA8220F84EFC0043AEF9 /* TMScrollRulerView.h */,
+				11F5CA8320F84EFC0043AEF9 /* TMScrollRulerView.m */,
+				11F5CA8520F876820043AEF9 /* TMTriangleView.h */,
+				11F5CA8620F876820043AEF9 /* TMTriangleView.m */,
+				11B9526F20F8904F00B07F72 /* TMRulerView.h */,
+				11B9527020F8904F00B07F72 /* TMRulerView.m */,
 			);
-			path = YJRulerView;
+			path = TMRulerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11F5CA4B20F840DC0043AEF9 /* YJRuerView */ = {
+		11F5CA4B20F840DC0043AEF9 /* TMRuerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11F5CA7820F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "YJRuerView" */;
+			buildConfigurationList = 11F5CA7820F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "TMRuerView" */;
 			buildPhases = (
 				11F5CA4820F840DC0043AEF9 /* Sources */,
 				11F5CA4920F840DC0043AEF9 /* Frameworks */,
@@ -175,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = YJRuerView;
+			name = TMRuerView;
 			productName = YJRuerView;
-			productReference = 11F5CA4C20F840DC0043AEF9 /* YJRuerView.app */;
+			productReference = 11F5CA4C20F840DC0043AEF9 /* TMRuerView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		11F5CA6320F840DF0043AEF9 /* YJRuerViewTests */ = {
+		11F5CA6320F840DF0043AEF9 /* TMRuerViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11F5CA7B20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "YJRuerViewTests" */;
+			buildConfigurationList = 11F5CA7B20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "TMRuerViewTests" */;
 			buildPhases = (
 				11F5CA6020F840DF0043AEF9 /* Sources */,
 				11F5CA6120F840DF0043AEF9 /* Frameworks */,
@@ -193,14 +193,14 @@
 			dependencies = (
 				11F5CA6620F840DF0043AEF9 /* PBXTargetDependency */,
 			);
-			name = YJRuerViewTests;
+			name = TMRuerViewTests;
 			productName = YJRuerViewTests;
-			productReference = 11F5CA6420F840DF0043AEF9 /* YJRuerViewTests.xctest */;
+			productReference = 11F5CA6420F840DF0043AEF9 /* TMRuerViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		11F5CA6E20F840DF0043AEF9 /* YJRuerViewUITests */ = {
+		11F5CA6E20F840DF0043AEF9 /* TMRuerViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11F5CA7E20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "YJRuerViewUITests" */;
+			buildConfigurationList = 11F5CA7E20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "TMRuerViewUITests" */;
 			buildPhases = (
 				11F5CA6B20F840DF0043AEF9 /* Sources */,
 				11F5CA6C20F840DF0043AEF9 /* Frameworks */,
@@ -211,9 +211,9 @@
 			dependencies = (
 				11F5CA7120F840DF0043AEF9 /* PBXTargetDependency */,
 			);
-			name = YJRuerViewUITests;
+			name = TMRuerViewUITests;
 			productName = YJRuerViewUITests;
-			productReference = 11F5CA6F20F840DF0043AEF9 /* YJRuerViewUITests.xctest */;
+			productReference = 11F5CA6F20F840DF0043AEF9 /* TMRuerViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 11F5CA4720F840DC0043AEF9 /* Build configuration list for PBXProject "YJRuerView" */;
+			buildConfigurationList = 11F5CA4720F840DC0043AEF9 /* Build configuration list for PBXProject "TMRuerView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -251,9 +251,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11F5CA4B20F840DC0043AEF9 /* YJRuerView */,
-				11F5CA6320F840DF0043AEF9 /* YJRuerViewTests */,
-				11F5CA6E20F840DF0043AEF9 /* YJRuerViewUITests */,
+				11F5CA4B20F840DC0043AEF9 /* TMRuerView */,
+				11F5CA6320F840DF0043AEF9 /* TMRuerViewTests */,
+				11F5CA6E20F840DF0043AEF9 /* TMRuerViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F5CA8420F84EFC0043AEF9 /* YJScrollRulerView.m in Sources */,
+				11F5CA8420F84EFC0043AEF9 /* TMScrollRulerView.m in Sources */,
 				11F5CA5420F840DC0043AEF9 /* ViewController.m in Sources */,
-				11DE80E920FC83B2001CE0E9 /* YJRulerViewConfig.m in Sources */,
-				11B9527120F8904F00B07F72 /* YJRulerView.m in Sources */,
+				11DE80E920FC83B2001CE0E9 /* TMRulerViewConfig.m in Sources */,
+				11B9527120F8904F00B07F72 /* TMRulerView.m in Sources */,
 				11F5CA5F20F840DF0043AEF9 /* main.m in Sources */,
-				11F5CA8720F876820043AEF9 /* YJTriangleView.m in Sources */,
+				11F5CA8720F876820043AEF9 /* TMTriangleView.m in Sources */,
 				11F5CA5120F840DC0043AEF9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F5CA6920F840DF0043AEF9 /* YJRuerViewTests.m in Sources */,
+				11F5CA6920F840DF0043AEF9 /* TMRuerViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F5CA7420F840DF0043AEF9 /* YJRuerViewUITests.m in Sources */,
+				11F5CA7420F840DF0043AEF9 /* TMRuerViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		11F5CA6620F840DF0043AEF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11F5CA4B20F840DC0043AEF9 /* YJRuerView */;
+			target = 11F5CA4B20F840DC0043AEF9 /* TMRuerView */;
 			targetProxy = 11F5CA6520F840DF0043AEF9 /* PBXContainerItemProxy */;
 		};
 		11F5CA7120F840DF0043AEF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11F5CA4B20F840DC0043AEF9 /* YJRuerView */;
+			target = 11F5CA4B20F840DC0043AEF9 /* TMRuerView */;
 			targetProxy = 11F5CA7020F840DF0043AEF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -466,8 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4ZAJA8P7J6;
-				INFOPLIST_FILE = YJRuerView/Info.plist;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMRuerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,8 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4ZAJA8P7J6;
-				INFOPLIST_FILE = YJRuerView/Info.plist;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMRuerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,7 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fedf.YJRuerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJRuerView.app/YJRuerView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMRuerView.app/TMRuerView";
 			};
 			name = Debug;
 		};
@@ -529,7 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fedf.YJRuerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJRuerView.app/YJRuerView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMRuerView.app/TMRuerView";
 			};
 			name = Release;
 		};
@@ -572,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11F5CA4720F840DC0043AEF9 /* Build configuration list for PBXProject "YJRuerView" */ = {
+		11F5CA4720F840DC0043AEF9 /* Build configuration list for PBXProject "TMRuerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11F5CA7620F840DF0043AEF9 /* Debug */,
@@ -581,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11F5CA7820F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "YJRuerView" */ = {
+		11F5CA7820F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "TMRuerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11F5CA7920F840DF0043AEF9 /* Debug */,
@@ -590,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11F5CA7B20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "YJRuerViewTests" */ = {
+		11F5CA7B20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "TMRuerViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11F5CA7C20F840DF0043AEF9 /* Debug */,
@@ -599,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11F5CA7E20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "YJRuerViewUITests" */ = {
+		11F5CA7E20F840DF0043AEF9 /* Build configuration list for PBXNativeTarget "TMRuerViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11F5CA7F20F840DF0043AEF9 /* Debug */,

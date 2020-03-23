@@ -1,18 +1,18 @@
 //
 //  ViewController.m
-//  YJRuerView
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "YJScrollRulerView.h"
-#import "YJRulerViewConfig.h"
+#import "TMScrollRulerView.h"
+#import "TMRulerViewConfig.h"
 
 @interface ViewController ()
 
-@property (nonatomic, strong) YJScrollRulerView *rulerView;
+@property (nonatomic, strong) TMScrollRulerView *rulerView;
 
 @end
 
@@ -25,9 +25,9 @@
     
 }
 
-- (YJScrollRulerView *)rulerView {
+- (TMScrollRulerView *)rulerView {
     if (!_rulerView) {
-        _rulerView = [[YJScrollRulerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width - 0 * 2, RVCShareIns.rulerView_H) minValue:0 maxValue:10 step:0.5 unit:@"" num:2];
+        _rulerView = [[TMScrollRulerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width - 0 * 2, RVCShareIns.rulerView_H) minValue:0 maxValue:10 step:0.5 unit:@"" num:2];
         _rulerView.center = self.view.center;
         [_rulerView setRealValue:5 animated:YES];
     }

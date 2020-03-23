@@ -1,6 +1,6 @@
 //
-//  YJRulerView.h
-//  YJRuerView
+//  TMRulerView.h
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
@@ -8,19 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@class YJScrollRulerView;
-@protocol YJScrollRulerViewDelegate <NSObject>
+@class TMScrollRulerView;
+@protocol TMScrollRulerViewDelegate <NSObject>
 /*
  *  游标卡尺滑动，对应value回调
  *  滑动视图
  *  当前滑动的值
  */
-- (void)sbScrollRulerView:(YJScrollRulerView *)rulerView valueChange:(float)value;
+- (void)sbScrollRulerView:(TMScrollRulerView *)rulerView valueChange:(float)value;
 @end
 
-@interface YJScrollRulerView : UIView
+@interface TMScrollRulerView : UIView
 /// 代理
-@property(nonatomic, weak) id<YJScrollRulerViewDelegate> delegate;
+@property(nonatomic, weak) id<TMScrollRulerViewDelegate> delegate;
 /**
  三角形颜色
  */

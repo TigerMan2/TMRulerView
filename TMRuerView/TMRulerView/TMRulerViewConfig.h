@@ -1,6 +1,6 @@
 //
-//  YJRulerViewConfig.h
-//  YJRuerView
+//  TMRulerViewConfig.h
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/16.
 //  Copyright © 2018年 edward lannister. All rights reserved.
@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define RVCShareIns  [YJRulerViewConfig manager]
+#define RVCShareIns  [TMRulerViewConfig manager]
 
-@interface YJRulerViewConfig : NSObject
+@interface TMRulerViewConfig : NSObject
 
 /**
  刻度的间距 默认是50 <10 10等分> = <50 2等分>

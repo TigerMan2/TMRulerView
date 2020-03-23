@@ -1,6 +1,6 @@
 //
-//  YJRuerViewUITests.m
-//  YJRuerViewUITests
+//  TMRuerViewUITests.m
+//  TMRuerViewUITests
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface YJRuerViewUITests : XCTestCase
+@interface TMRuerViewUITests : XCTestCase
 
 @end
 
-@implementation YJRuerViewUITests
+@implementation TMRuerViewUITests
 
 - (void)setUp {
     [super setUp];

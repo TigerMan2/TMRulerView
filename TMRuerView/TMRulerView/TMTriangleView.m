@@ -1,14 +1,14 @@
 //
-//  YJTriangleView.m
-//  YJRuerView
+//  TMTriangleView.m
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
 //
 
-#import "YJTriangleView.h"
+#import "TMTriangleView.h"
 
-@implementation YJTriangleView
+@implementation TMTriangleView
 
 - (void)drawRect:(CGRect)rect {
     //设置背景颜色

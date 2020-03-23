@@ -1,16 +1,16 @@
 //
-//  YJRulerView.m
-//  YJRuerView
+//  TMRulerView.m
+//  TMRuerView
 //
 //  Created by edward lannister on 2018/7/13.
 //  Copyright © 2018年 edward lannister. All rights reserved.
 //
 
-#import "YJScrollRulerView.h"
-#import "YJTriangleView.h"
-#import "YJRulerView.h"
+#import "TMScrollRulerView.h"
+#import "TMTriangleView.h"
+#import "TMRulerView.h"
 
-@interface YJScrollRulerView ()
+@interface TMScrollRulerView ()
 <
     UICollectionViewDelegate,
     UICollectionViewDataSource,
@@ -18,7 +18,7 @@
 >
 
 @property (nonatomic, strong) UICollectionView *collectionView;
-@property (nonatomic, strong) YJTriangleView *triangle;
+@property (nonatomic, strong) TMTriangleView *triangle;
 
 //基础设置值
 @property(nonatomic, assign)float           realValue;
@@ -31,7 +31,7 @@
 
 @end
 
-@implementation YJScrollRulerView
+@implementation TMScrollRulerView
 
 - (instancetype)initWithFrame:(CGRect)frame minValue:(float)minValue maxValue:(float)maxValue step:(float)step unit:(NSString *)unit num:(NSInteger)betweenNum {
     self = [super initWithFrame:frame];
@@ -52,9 +52,9 @@
     return self;
 }
 
-- (YJTriangleView *)triangle{
+- (TMTriangleView *)triangle{
     if (!_triangle) {
-        _triangle = [[YJTriangleView alloc]initWithFrame:CGRectMake(self.bounds.size.width / 2 - RVCShareIns.trangle_W / 2, 0, RVCShareIns.trangle_W, RVCShareIns.trangle_W)];
+        _triangle = [[TMTriangleView alloc]initWithFrame:CGRectMake(self.bounds.size.width / 2 - RVCShareIns.trangle_W / 2, 0, RVCShareIns.trangle_W, RVCShareIns.trangle_W)];
         _triangle.triangleColor = self.triangleColor;
         _triangle.backgroundColor = [UIColor clearColor];
     }
@@ -110,7 +110,7 @@
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"customCell" forIndexPath:indexPath];
-    YJRulerView *rulerView = [cell.contentView viewWithTag:1002];
+    TMRulerView *rulerView = [cell.contentView viewWithTag:1002];
     [rulerView removeFromSuperview];
     rulerView = nil;
     CGRect frame = CGRectMake(0, 0, RVCShareIns.rulerGap * _betweenNum, RVCShareIns.rulerView_H);
@@ -123,7 +123,7 @@
         }
     }
     if (!rulerView){
-        rulerView  = [[YJRulerView alloc]initWithFrame:frame];
+        rulerView  = [[TMRulerView alloc]initWithFrame:frame];
         rulerView.tag               = 1002;
         rulerView.backgroundColor = [UIColor clearColor];
         rulerView.betweenNumber     = _betweenNum;
